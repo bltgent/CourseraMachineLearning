@@ -4,8 +4,13 @@ author: "Brian Thomas"
 date: "February 12, 2016"
 output:
   html_document:
-    theme: readable
-    toc: true
+    toc: yes
+    toc_depth: 2
+  pdf_document:
+    fig_caption: yes
+    keep_tex: yes
+    latex_engine: xelatex
+    toc: yes
     toc_depth: 2
 ---
 
